@@ -1,0 +1,477 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid #;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+
+}
+
+iframe {
+    vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+a {
+    color: #444444;
+    text-decoration: none;
+}
+
+a:hover { 
+    color:#c0c0c0;          
+    text-decoration: none;
+}
+
+p a {
+    color: #FF3333;
+    text-decoration: none;
+}
+
+li { 
+    
+}
+
+body {
+	position: relative; 
+
+	margin: auto;
+	padding: 14px;
+
+	background-color: #FFFFFF;
+
+	font-size: 0.8em;	 
+    font-weight: 300;
+}
+
+/* Set default widths for page boxes */
+body div {
+	position: relative;
+	margin: auto;
+	width: 700px;
+}
+body div div { 
+    width:auto 
+}
+
+h1, h2, h3, h4, body, p {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+h1 { 
+    margin:0px; 
+    color: #FF3333;    
+    font-weight: 700;
+    font-size: 3em;
+}
+
+h2 {
+	text-align: left;	
+    color: #FF3333;    
+    font-weight: 300;
+    font-size: 3em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+}
+
+p {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: #444444; 
+}
+
+h3 {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: #EE0000;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li {
+    margin-top: 0.75em;
+}
+
+hr {    
+    border: 0;
+    height: 2px;
+    background: #FFFFFF;
+}
+
+#pagecontainer {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 72px;        
+}
+
+#left {
+    float: left;
+    width: 40%;
+    height: 100%;    
+}
+
+#left h1 {
+    margin-left: 0.5em;
+    margin-bottom: 0;    
+}
+#left h1 a {
+    color: #FF3333;
+}
+#left h1 a:visited {
+       
+}
+#left h1 a:hover {
+    text-decoration: none;    
+}
+
+#left h2 {
+    margin-top: 0;
+    color: #c0c0c0;
+    position: relative;
+    left: 24px;
+    bottom: 8px;
+    font-size: 1.2em;
+}
+
+#right {
+    text-align: right;
+    float: right;
+    width: 60%;
+    height: 100%;
+    color: #444444;
+}
+
+#right ul {
+    display: inline;   
+}
+
+#right ul li {
+    display: inline;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 0 12px;
+    text-align: right;    
+}
+
+#right ul li a {
+    display: inline;
+    font-size: 1.0em;
+    font-weight: bold;
+    text-decoration: none;
+    /*color: #EE0000; */
+}
+#right ul li a:hover {
+    text-decoration: underline;
+}
+
+#navBlock ul {     
+    text-align: center;
+    padding: 0 1em;   
+}
+
+#navBlock ul li {    
+    display: inline;    
+}
+
+#navBlock ul li a {
+    padding: 0px 8px 0px 8px;    
+    font-weight: bold;
+    font-size: 2.0em;
+    color: #c0c0c0;
+    opacity: .8;
+
+    -webkit-transition: all 100ms linear;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 100ms;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-delay: initial;
+    -moz-transition: all 100ms linear;
+    -o-transition: all 100ms linear;
+    transition: all 100ms linear;
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+    transition-delay: initial;
+}
+
+#navBlock ul li a:hover {   
+    text-decoration: none;
+    color: #555555;
+    opacity: 1;   
+}
+
+#projects { 
+    line-height: .5;     
+    display: block;
+    margin-left: auto;
+    margin-right: auto  
+}
+
+#projects a img{     
+    display: block;
+    margin-left: auto;
+    margin-right: auto     
+}
+
+p.inset {
+    padding-left: 0.5em;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resume {
+}
+
+#resume h3, h4 {
+    margin-bottom: 0;
+}
+
+#resume ul {
+    display: inline;
+    clear: both;
+}
+#resume ul li {
+    list-style-type: none;    
+}
+
+#resume ul ul {
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+}
+
+#resume ul ul li {
+    list-style-type: circle;
+    margin-top: 0.1em;
+}
+
+#resume .date {
+    float: right;
+    text-align: right;
+    width: 35%;
+    padding: 0;
+}
+
+#resume .date p {
+    margin-top: 0;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

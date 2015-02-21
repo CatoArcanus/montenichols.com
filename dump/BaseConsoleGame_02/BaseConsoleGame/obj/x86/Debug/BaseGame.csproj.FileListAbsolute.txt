@@ -1,0 +1,2 @@
+C:\Users\mxn120130\Documents\Visual Studio 2010\Projects\BaseConsoleGame_01\BaseConsoleGame\obj\x86\Debug\BaseConsoleGame.exe
+C:\Users\mxn120130\Documents\Visual Studio 2010\Projects\BaseConsoleGame_01\BaseConsoleGame\obj\x86\Debug\BaseConsoleGame.pdb

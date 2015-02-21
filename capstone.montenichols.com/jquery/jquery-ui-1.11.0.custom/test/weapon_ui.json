@@ -1,0 +1,77 @@
+{
+	"name" : "weapon",
+	"components" : {	
+		"recoil" :	{
+			"value" : 5,
+			"bValue_as_textfield" : false,
+			"bSpinner" : true,
+			"spinner_data" : {
+				"min" : 0,
+				"max" : 10
+			},
+			"bSlider" : false,
+			"bProgress_bar" : false,
+			"bSegmented_bar" : false
+		},
+		"exp_requirements" : {
+			"value" : [
+				5,
+				10,
+				25,
+				50,
+				100,
+				250	
+			]
+		},
+		"shells" : {
+			"value" : 1,
+			"bValue_as_textfield" : false,
+			"bSpinner" : true,
+			"spinner_data" : {
+				"min" : 0,
+				"max" : 25
+			},
+			"bSlider" : false,
+			"bProgress_bar" : false,
+			"bSegmented_bar" : true,
+			"segmented_bar_data" : {
+				"max" : 25,
+				"segments" : 25
+			}
+		},
+		"projectile": {
+			"bCreateBtn" : true,
+			"value" : {					
+				"direct_damage" : {
+					"value" : 35,
+					"bValue_as_textfield" : true,
+					"bSpinner" : false,
+					"bSlider" : true,
+					"slider_data" : {
+						"min" : 5,
+						"max" : 100,
+						"step" : 5
+					},
+					"bProgress_bar" : false,
+					"bSegmented_bar" : false
+				},
+				"impulse" :	{
+					"value" : 5,
+					"bValue_as_textfield" : false,
+					"bSpinner" : false,
+					"bSlider" : false,
+					"bProgress_bar" : false,
+					"bSegmented_bar" : false
+				},
+				"explosion" : {
+					"bCreateBtn" : false,
+					"value" : {
+						"radius_damage" : 45,
+						"impulse" : 30,
+						"damage_radius" : 128
+					}
+				}				
+			}			
+		}
+	}	
+}

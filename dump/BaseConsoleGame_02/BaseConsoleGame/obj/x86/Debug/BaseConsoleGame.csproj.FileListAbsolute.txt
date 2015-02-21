@@ -1,0 +1,9 @@
+C:\Users\mxn120130\Documents\Visual Studio 2010\Projects\BaseConsoleGame_01\BaseConsoleGame\bin\Debug\BaseConsoleGame.exe
+C:\Users\mxn120130\Documents\Visual Studio 2010\Projects\BaseConsoleGame_01\BaseConsoleGame\bin\Debug\BaseConsoleGame.pdb
+C:\Users\mxn120130\Documents\Visual Studio 2010\Projects\BaseConsoleGame_01\BaseConsoleGame\obj\x86\Debug\BaseConsoleGame.exe
+C:\Users\mxn120130\Documents\Visual Studio 2010\Projects\BaseConsoleGame_01\BaseConsoleGame\obj\x86\Debug\BaseConsoleGame.pdb
+C:\Users\mxn120130\Documents\Visual Studio 2010\Projects\BaseConsoleGame_02\BaseConsoleGame\obj\x86\Debug\BaseConsoleGame.exe
+C:\Users\mxn120130\Documents\Visual Studio 2010\Projects\BaseConsoleGame_02\BaseConsoleGame\obj\x86\Debug\BaseConsoleGame.pdb
+C:\Users\mxn120130\Documents\Visual Studio 2010\Projects\BaseConsoleGame_02\BaseConsoleGame\bin\Debug\BaseConsoleGame.exe
+C:\Users\mxn120130\Documents\Visual Studio 2010\Projects\BaseConsoleGame_02\BaseConsoleGame\bin\Debug\BaseConsoleGame.pdb
+C:\Users\mxn120130\Documents\Visual Studio 2010\Projects\BaseConsoleGame_02\BaseConsoleGame\obj\x86\Debug\BaseConsoleGame.csprojResolveAssemblyReference.cache

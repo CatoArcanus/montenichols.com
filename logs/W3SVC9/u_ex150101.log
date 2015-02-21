@@ -1,0 +1,103 @@
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2015-01-01 00:28:25
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-01-01 00:28:25 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /projects/zelda_level/ - 80 - 66.249.75.134 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - montenichols.com 304 0 0 194 361 4672
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2015-01-01 01:24:58
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-01-01 01:24:58 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /projects/tezcatlipoca/ - 80 - 66.249.75.150 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - montenichols.com 304 0 0 194 362 5265
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2015-01-01 01:52:49
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-01-01 01:52:49 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /css/normalize.min.css - 80 - 180.76.5.19 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - montenichols.com 200 0 0 1703 239 2953
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2015-01-01 03:15:43
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-01-01 03:15:43 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /resume/ - 80 - 66.249.75.118 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - montenichols.com 304 0 0 195 347 5312
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2015-01-01 03:33:59
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-01-01 03:33:58 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /css/main.css - 80 - 220.181.108.106 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - montenichols.com 200 0 0 2932 236 3078
+2015-01-01 03:34:01 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /css/ - 80 - 220.181.108.95 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - montenichols.com 403 14 0 1344 215 2046
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2015-01-01 04:12:29
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-01-01 04:12:29 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /projects/cp_buzzard/ - 80 - 66.249.75.134 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - montenichols.com 304 0 0 194 360 3375
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2015-01-01 05:09:43
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-01-01 05:09:42 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /projects/zelda_level/ - 80 - 66.249.75.150 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - montenichols.com 304 0 0 194 361 6500
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2015-01-01 06:17:33
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-01-01 06:17:33 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /docs/Monte_Nichols_resume_2015.docx - 80 - 66.249.75.118 HTTP/1.1 Googlebot/2.1+(+http://www.google.com/bot.html) - - montenichols.com 200 0 0 24333 240 2984
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2015-01-01 06:35:54
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-01-01 06:35:53 W3SVC9 P3NWVPWEB036 50.62.160.55 GET / - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://buttons-for-website.com montenichols.com 200 0 0 2269 355 4671
+2015-01-01 06:35:54 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /css/normalize.min.css - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 1684 325 187
+2015-01-01 06:35:54 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /css/main.css - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 2913 316 218
+2015-01-01 06:35:54 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /js/vendor/modernizr-2.6.2.min.js - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 7821 321 390
+2015-01-01 06:35:54 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /js/plugins.js - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 832 302 437
+2015-01-01 06:35:54 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /js/main.js - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 456 299 453
+2015-01-01 06:35:54 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /js/preLoad.js - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 723 302 453
+2015-01-01 06:35:54 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /js/nav_functions.js - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 1234 308 453
+2015-01-01 06:35:55 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /img/tezcatlipoca_Banner.jpg - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 31278 316 390
+2015-01-01 06:35:55 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /img/Vestige_Banner.jpg - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 20148 311 421
+2015-01-01 06:35:55 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /img/cp_buzzard_Banner.jpg - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 31305 314 578
+2015-01-01 06:35:55 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /img/lunacy_Banner.jpg - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 29615 310 875
+2015-01-01 06:35:56 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /projects - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 __utma=32551714.740980070.1420094153.1420094153.1420094153.1;+__utmb=32551714.0.10.1420094153;+__utmc=32551714;+__utmz=32551714.1420094153.1.1.utmcsr=buttons-for-website.com|utmccn=(referral)|utmcmd=referral|utmcct=/ http://montenichols.com/ www.montenichols.com 301 0 0 411 587 390
+2015-01-01 06:35:58 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /projects - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 __utma=32551714.740980070.1420094153.1420094153.1420094153.1;+__utmb=32551714.0.10.1420094153;+__utmc=32551714;+__utmz=32551714.1420094153.1.1.utmcsr=buttons-for-website.com|utmccn=(referral)|utmcmd=referral|utmcct=/ http://montenichols.com/ montenichols.com 301 0 0 413 583 203
+2015-01-01 06:35:58 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /projects/ - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 __utma=32551714.740980070.1420094153.1420094153.1420094153.1;+__utmb=32551714.0.10.1420094153;+__utmc=32551714;+__utmz=32551714.1420094153.1.1.utmcsr=buttons-for-website.com|utmccn=(referral)|utmcmd=referral|utmcct=/ http://montenichols.com/ montenichols.com 200 0 0 2222 584 187
+2015-01-01 06:35:58 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /projects/js/vendor/modernizr-2.6.2.min.js - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 __utma=32551714.740980070.1420094153.1420094153.1420094153.1;+__utmb=32551714.0.10.1420094153;+__utmc=32551714;+__utmz=32551714.1420094153.1.1.utmcsr=buttons-for-website.com|utmccn=(referral)|utmcmd=referral|utmcct=/ http://montenichols.com/projects/ montenichols.com 404 0 2 1326 565 250
+2015-01-01 06:35:59 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /img/Vestige_Banner.jpg - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 __utma=32551714.740980070.1420094153.1420094153.1420094153.1;+__utmb=32551714.0.10.1420094153;+__utmc=32551714;+__utmz=32551714.1420094153.1.1.utmcsr=buttons-for-website.com|utmccn=(referral)|utmcmd=referral|utmcct=/ http://montenichols.com/projects/ montenichols.com 200 0 0 20148 546 187
+2015-01-01 06:35:59 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /projects/js/main.js - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 __utma=32551714.740980070.1420094153.1420094153.1420094153.1;+__utmb=32551714.0.10.1420094153;+__utmc=32551714;+__utmz=32551714.1420094153.1.1.utmcsr=buttons-for-website.com|utmccn=(referral)|utmcmd=referral|utmcct=/ http://montenichols.com/projects/ montenichols.com 404 0 2 1326 543 406
+2015-01-01 06:35:59 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /projects/js/plugins.js - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 __utma=32551714.740980070.1420094153.1420094153.1420094153.1;+__utmb=32551714.0.10.1420094153;+__utmc=32551714;+__utmz=32551714.1420094153.1.1.utmcsr=buttons-for-website.com|utmccn=(referral)|utmcmd=referral|utmcct=/ http://montenichols.com/projects/ montenichols.com 404 0 2 1326 546 406
+2015-01-01 06:35:59 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /img/cp_buzzard_Banner.jpg - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 __utma=32551714.740980070.1420094153.1420094153.1420094153.1;+__utmb=32551714.0.10.1420094153;+__utmc=32551714;+__utmz=32551714.1420094153.1.1.utmcsr=buttons-for-website.com|utmccn=(referral)|utmcmd=referral|utmcct=/ http://montenichols.com/projects/ montenichols.com 200 0 0 31305 549 218
+2015-01-01 06:35:59 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /img/zelda_Banner.jpg - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 __utma=32551714.740980070.1420094153.1420094153.1420094153.1;+__utmb=32551714.0.10.1420094153;+__utmc=32551714;+__utmz=32551714.1420094153.1.1.utmcsr=buttons-for-website.com|utmccn=(referral)|utmcmd=referral|utmcct=/ http://montenichols.com/projects/ montenichols.com 200 0 0 25906 544 546
+2015-01-01 06:35:59 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /img/tezcatlipoca_Banner.jpg - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 __utma=32551714.740980070.1420094153.1420094153.1420094153.1;+__utmb=32551714.0.10.1420094153;+__utmc=32551714;+__utmz=32551714.1420094153.1.1.utmcsr=buttons-for-website.com|utmccn=(referral)|utmcmd=referral|utmcct=/ http://montenichols.com/projects/ montenichols.com 200 0 0 31278 551 562
+2015-01-01 06:36:00 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /img/stringEmitter_banner.jpg - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 __utma=32551714.740980070.1420094153.1420094153.1420094153.1;+__utmb=32551714.0.10.1420094153;+__utmc=32551714;+__utmz=32551714.1420094153.1.1.utmcsr=buttons-for-website.com|utmccn=(referral)|utmcmd=referral|utmcct=/ http://montenichols.com/projects/ montenichols.com 200 0 0 17103 552 1000
+2015-01-01 06:36:00 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /img/lunacy_Banner.jpg - 80 - 149.154.86.79 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 __utma=32551714.740980070.1420094153.1420094153.1420094153.1;+__utmb=32551714.0.10.1420094153;+__utmc=32551714;+__utmz=32551714.1420094153.1.1.utmcsr=buttons-for-website.com|utmccn=(referral)|utmcmd=referral|utmcct=/ http://montenichols.com/projects/ montenichols.com 200 0 0 29615 545 1203
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2015-01-01 08:20:16
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-01-01 08:20:15 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /projects/tezcatlipoca/ - 80 - 66.249.75.150 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - montenichols.com 304 0 0 194 362 5046
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2015-01-01 09:10:16
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-01-01 09:10:16 W3SVC9 P3NWVPWEB036 50.62.160.55 GET / - 80 - 180.191.142.117 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://semalt.semalt.com/crawler.php?u=http://montenichols.com montenichols.com 200 0 0 2269 384 5750
+2015-01-01 09:10:16 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /css/main.css - 80 - 180.191.142.117 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 2913 313 203
+2015-01-01 09:10:16 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /js/plugins.js - 80 - 180.191.142.117 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 832 299 203
+2015-01-01 09:10:16 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /js/main.js - 80 - 180.191.142.117 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 456 296 203
+2015-01-01 09:10:17 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /css/normalize.min.css - 80 - 180.191.142.117 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 1684 322 1156
+2015-01-01 09:10:19 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /js/nav_functions.js - 80 - 180.191.142.117 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 1234 305 187
+2015-01-01 09:10:20 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /js/preLoad.js - 80 - 180.191.142.117 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 723 299 1078
+2015-01-01 09:10:24 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /js/vendor/modernizr-2.6.2.min.js - 80 - 180.191.142.117 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/36.0.1985.143+Safari/537.36 - http://montenichols.com/ montenichols.com 200 0 0 7821 318 421
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2015-01-01 15:32:00
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-01-01 15:32:00 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /projects/js/main.js - 80 - 180.76.5.26 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - montenichols.com 404 0 2 1345 237 3218
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2015-01-01 16:44:07
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-01-01 16:44:07 W3SVC9 P3NWVPWEB036 50.62.160.55 GET / - 80 - 130.211.145.0 HTTP/1.0 NerdyBot - - montenichols.com 200 0 0 4645 101 3578
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2015-01-01 20:13:03
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-01-01 20:13:03 W3SVC9 P3NWVPWEB036 50.62.160.55 GET / - 80 - 69.195.129.178 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_9_5)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/39.0.2171.65+Safari/537.36 - - montenichols.com 200 0 0 4621 188 5531
+2015-01-01 20:21:18 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /robots.txt - 80 - 66.249.67.150 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - montenichols.com 200 0 0 471 257 3625
+2015-01-01 20:21:20 W3SVC9 P3NWVPWEB036 50.62.160.55 GET /projects/tezcatlipoca/ - 80 - 66.249.67.158 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+6_0+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+Version/6.0+Mobile/10A5376e+Safari/8536.25+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - montenichols.com 304 0 0 194 426 1843

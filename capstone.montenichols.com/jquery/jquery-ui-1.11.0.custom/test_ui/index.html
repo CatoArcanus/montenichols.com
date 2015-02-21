@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Slider - Snap to increments</title>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+	<script src="../external/jquery/jquery.js"></script>
+	<script src="../jquery-ui.js"></script>
+	<script src="../jquery.serialize-object.min.js"></script>
+	
+	<link rel="stylesheet" href="../jquery-ui.css">
+	<style>
+		#draggable { width: 200px; height: 400px; padding: 0.5em; }
+		#containment-wrapper { width: 800px; height: 600px; padding: 0.5em; border:2px solid #ccc; padding: 10px;}
+		#handle{ width: 180px; height: 20px; padding: 0.5em; cursor:move; background-color: green;}	
+		.ui-slider{ width: 100px; display: inline-block; }
+		#amount{ width: 30px; display: inline-block; }
+		#amount2{ width: 30px; display: inline-block; }
+		#holder{ padding: 10px; }
+		#menu{ width: 200px;}
+		.style-input{border:1; color:#f6931f; font-weight:bold; width: 30px; display: inline-block;}
+		.indent{text-indent: 30px;}
+		.indentindent{text-indent: 60px;}
+		.indentindentindent{text-indent: 90px;}
+		.indentindentindentindent{text-indent: 120px;}
+		.indentindentindentindentindent{text-indent: 150px;}
+		.indentindentindentindentindentindent{text-indent: 180px;}
+		#result {
+			margin: 10px;
+			background: #eee;
+			padding: 10px;
+			height: 40px;
+			overflow: auto;
+		}
+	</style>
+	<script>
+	var defaultValue = 200;
+	var defaultMin = 0;
+	var defaultMax = 8;
+	var iterator = 0;
+		
+	$(function() {
+		//function getJSONObject.x.value
+		var slideID = "#slider" + iterator;
+		iterator++;
+		$( slideID ).slider({
+			value: defaultValue,
+			min: defaultMin,
+			max: defaultMax,
+			/*step: 1,*/
+			slide: function( event, ui ) {
+				$( "#amount" ).val( ui.value );
+			}
+		});
+		$( "#amount" ).val( $( slideID ).slider( "value" ) );		
+	});
+		
+	$(function() {
+		var slideID = "#slider" + iterator;
+		iterator++;
+		$( slideID ).slider({
+			value:100,
+			min: 0,
+			max: 800,
+			/*step: 1,*/
+			slide: function( event, ui ) {
+				$( "#amount2" ).val( ui.value );
+			}
+		});
+		$( "#amount2" ).val( $( slideID ).slider( "value" ) );
+	});
+	
+	$(function() {
+   		$( "#rectangle-dialog" ).dialog({
+   			open: function(event, ui) {
+   				var dlg = $(event.target).parent();
+        		var container = $('#containment-wrapper');
+        		dlg.draggable("option", "containment", container).appendTo(container);
+        		$(this).dialog("option", "position", "center");
+   			},   			
+   			height: 400,
+   			width: 200,
+   		})   		
+ 	 });
+		
+	$(function() {
+		$( "#menu" ).menu({
+			 select: function( event, ui ) {
+			 	if( ui.item.text() == "create rectangle")
+			 	{
+			 		console.log("create rectangle");
+			 	}
+			 	else
+			 	{
+			 		console.log("failed");
+			 	}
+			 },			
+		});
+	 });
+	
+	/*
+	$(function() {
+		$( "#recoil-bSpinner" ).change(function(){
+    		if( $( "#recoil-bSpinner" ).prop('checked')) {
+    			console.log("true");
+    			$('#recoil-value-max').removeAttr('disabled');
+    			$('#recoil-bSpinner').attr('checked','checked');
+    		} else {
+    			console.log("false");
+    			$('#recoil-value-max').attr('disabled', 'disabled');
+				$('#recoil-bSpinner').removeAttr('checked');
+    		}
+		});
+	});
+		
+	$(function() {
+		$( "#projectile-label" ).draggable({ 
+			opacity: 0.7,
+			helper: "clone",
+			scroll: false,
+		});
+	});
+	*/
+	
+	</script>
+</head>
+<body>
+	
+	<div id="containment-wrapper">
+		<ul id="menu">
+			<li>create rectangle</li>
+			<li class="ui-state-disabled">
+				create weapon
+			</li>	
+		</ul>		
+
+		<div id="rectangle-dialog" class="ui-widget-content ui-dialog"> 
+			
+			<div id ="holder">
+					<label for="amount">X:</label>
+					<input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;"></input>
+				<div id="slider0" class="ui-slider"></div>
+			</div>
+			<div id ="holder">
+					<label for="amount2">Y:</label>
+					<input type="text" id="amount2" readonly style="border:0; color:#f6931f; font-weight:bold;"></input>
+				<div id="slider1" class="ui-slider"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="dynamic-object">
+		<p>There will be dynamic content here: </p>
+		
+	</div>
+	
+	<pre id="result">
+	
+	</pre>
+	
+	<script src="../js/read_ui_object.js"></script>
+</body>
+</html>

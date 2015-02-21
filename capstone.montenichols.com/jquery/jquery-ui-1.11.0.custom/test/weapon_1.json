@@ -1,0 +1,22 @@
+{
+	"recoil": 5.000000,
+	"exp_requirements": [
+		5.000000,
+		10.000000,
+		25.000000,
+		50.000000,
+		100.000000,
+		250.000000	
+	],
+	"shells" : 1.000000,
+	"projectile" : {
+		"direct_damage": 35.000000,
+		"impulse": 5.000000,
+		"explosion":
+		{
+			"radius_damage": 45.000000,
+			"impulse":30.000000,
+			"damage_radius": 128.000000
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"items" : [
+	{
+		"id": 1,
+		"name": "Sword",
+		"isEquipped": true,
+		"isUsed": false
+	},
+	{
+		"id": 2,
+		"name": "Shield",
+		"isEquipped": false,
+		"isUsed": false
+	},
+	{
+		"id": 3,
+		"name": "Potion",
+		"isEquipped": false,
+		"isUsed": true
+	},
+	{
+		"id": 4,
+		"name": "Powder",
+		"isEquipped": false,
+		"isUsed": true
+	}]
+}

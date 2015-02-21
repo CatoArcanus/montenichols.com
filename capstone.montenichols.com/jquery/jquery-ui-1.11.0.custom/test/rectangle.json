@@ -1,0 +1,58 @@
+{
+	"type" : "rectangle",
+	"extends" : "file(model.json)",
+	"components" :  [
+		{
+			"label" : "x",
+			"value" : 100,
+			"text_enabled" : true,
+			"slider_enabled" : true,
+			"slider" : {
+				"min" : 0,
+				"max" : 600
+			}			
+		},
+		{
+			"label" : "y",
+			"value" : 100,
+			"slider" : {
+				"min" : 0,
+				"max" : 600
+			}
+		},
+		{
+			"label" : "height",
+			"value" : 100
+			
+		},
+		{
+			"label" : "width",
+			"value" : 100
+			
+		},
+		{
+			"label" : "r",
+			"value" : 100,
+			"slider" : {
+				"min" : 0,
+				"max" : 600
+			}			
+		},
+		{
+			"label" : "g",
+			"value" : 100,
+			"slider" : {
+				"min" : 0,
+				"max" : 600
+			}
+		},
+		{
+			"label" : "b",
+			"value" : 100,
+			"slider" : {
+				"min" : 0,
+				"max" : 600
+			}
+		}
+	]
+}

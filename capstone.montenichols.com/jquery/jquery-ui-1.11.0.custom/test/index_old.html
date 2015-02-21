@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Slider - Snap to increments</title>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+	<script src="../external/jquery/jquery.js"></script>
+	<script src="../jquery-ui.js"></script>
+	<link rel="stylesheet" href="../jquery-ui.css">
+	<style>
+		#draggable { width: 200px; height: 400px; padding: 0.5em; }
+		#containment-wrapper { width: 800px; height: 600px; padding: 0.5em; border:2px solid #ccc; padding: 10px;}
+		#handle{ width: 180px; height: 20px; padding: 0.5em; cursor:move; background-color: green;}	
+		.ui-slider{ width: 100px; display: inline-block; }
+		#amount{ width: 30px; display: inline-block; }
+		#amount2{ width: 30px; display: inline-block; }
+		#holder{ padding: 10px; }
+		#menu{ width: 200px;}
+		.style-input{border:1; color:#f6931f; font-weight:bold; width: 30px; display: inline-block;}
+	</style>
+	<script>
+	var defaultValue = 200;
+	var defaultMin = 0;
+	var defaultMax = 8;
+	var iterator = 0;
+	
+	$.getJSON( "rectangle.json", function( data ) {
+		console.log(data.type);
+		console.log(data.extends);
+		for(i = 0; i < data.components.length; i++)
+		{
+			var temp = data.components[i];
+			console.log(temp.label + ": " + temp.value);
+			if(temp.slider_enabled)
+			{
+				console.log("\tslider")
+				console.log("\tmax: " + temp.slider.max);
+				console.log("\tmin: " + temp.slider.min);
+			}
+		}
+		
+		var items = [];
+		/*$.each( data, function( key, val ) {
+			if()
+			items.push( "<li id='" + key + "'>" + val + "</li>" );
+		});*/
+		function iter(data) {
+			for (var key in obj) {
+				if (typeof(obj[key]) == 'object') {
+					iter(obj[key]);
+				} else {
+					alert("Key: " + key + " Values: " + obj[key]);
+					items.push( "<li id='" + key + "'>" + obj[key] + "</li>" );
+				}
+			}
+		}
+
+		$( "<ul/>", {
+			"class": "my-new-list",
+			html: items.join( "" )
+		}).appendTo( "body" );
+	});
+	
+	$.getJSON( "weapon_1.json", function( dat ) {
+		var tab = "";		
+		iter(dat, tab);
+		function iter(data, t) {
+			for (var key in data) {
+				if(data.hasOwnProperty(key)) {
+					if(typeof(data[key]) == 'object') {
+						console.log((t) + key + " ->");
+						iter(data[key], (t+"\t"));
+					} else {						
+						console.log((t) + key + " -> " + data[key]);
+					}
+				}
+			}
+		}
+	});	
+	
+	$(function() {
+		//function getJSONObject.x.value
+		var slideID = "#slider" + iterator;
+		iterator++;
+		$( slideID ).slider({
+			value: defaultValue,
+			min: defaultMin,
+			max: defaultMax,
+			/*step: 1,*/
+			slide: function( event, ui ) {
+				$( "#amount" ).val( ui.value );
+			}
+		});
+		$( "#amount" ).val( $( slideID ).slider( "value" ) );		
+	});
+		
+	$(function() {
+		var slideID = "#slider" + iterator;
+		iterator++;
+		$( slideID ).slider({
+			value:100,
+			min: 0,
+			max: 800,
+			/*step: 1,*/
+			slide: function( event, ui ) {
+				$( "#amount2" ).val( ui.value );
+			}
+		});
+		$( "#amount2" ).val( $( slideID ).slider( "value" ) );
+	});
+	
+	$(function() {
+   		$( "#dialog" ).dialog({
+   			open: function(event, ui) {
+   				var dlg = $(event.target).parent();
+        		var container = $('#containment-wrapper');
+        		dlg.draggable("option", "containment", container).appendTo(container);
+        		$(this).dialog("option", "position", "center");
+   			},   			
+   			height: 400,
+   			width: 200,
+   		})   		
+ 	 });
+	
+	$(function() {
+		$( "#menu" ).menu({
+			 select: function( event, ui ) {
+			 	if( ui.item.text() == "create rectangle")
+			 	{
+			 		console.log("create rectangle");
+			 	}
+			 	else
+			 	{
+			 		console.log("failed");
+			 	}
+			 },			
+		});
+	 });
+	$(function() {
+		$( "#recoil-bSpinner" ).change(function(){
+    		if( $( "#recoil-bSpinner" ).prop('checked')) {
+    			console.log("true");
+    			$('#recoil-value-max').removeAttr('disabled');
+    			$('#recoil-bSpinner').attr('checked','checked');
+    		} else {
+    			console.log("false");
+    			$('#recoil-value-max').attr('disabled', 'disabled');
+				$('#recoil-bSpinner').removeAttr('checked');
+    		}
+		});
+	});
+	$(function() {
+		$( "#recoil" ).accordion({
+			collapsible: true,
+			heightStyle: "content"
+		});
+	});
+	$(function() {
+		$( "#weapon-tabs" ).tabs();
+	});
+	</script>
+</head>
+<body>
+	
+	<div id="containment-wrapper">
+		<ul id="menu">
+			<li>create rectangle</li>
+			<li class="ui-state-disabled">
+				create triangle
+			</li>	
+		</ul>
+		<div id="dynamic-content">
+			<div id="weapon-tabs">
+				
+				<ul>
+					<li><a href="#weapon">components</a></li>
+					<li><a href="#projectile">projectile</a></li>
+					<li><a href="#explosion">explosion</a></li>
+				</ul>
+				
+				<div id="weapon">
+					<div id="recoil">
+						
+						<h3><label for="recoil-value"> recoil : number </label></h3>
+						<div>
+							<input type="text" value="5" id="recoil-value" readonly class="style-input"></input>
+							<br>
+							
+							<label for="recoil-value-max"> max: </label>
+							<input type="text" value="" id="recoil-value-max" disabled class="style-input"></input>
+							<label for="recoil-value-min"> min: </label>
+							<input type="text" value="" id="recoil-value-min" disabled class="style-input"></input>
+							<label for="recoil-value-step"> step: </label>
+							<input type="text" value="" id="recoil-value-step" disabled class="style-input"></input>
+							<!--
+							<label for="recoil-value-array"> array: </label>
+							<input type="textfield" value="" id="recoil-value-array" readonly class=""></input>
+							-->			
+							<br>
+							<input type="checkbox" id="recoil-bValue_as_textfield"></input>
+							<label for="recoil-bValue_as_textfield"> Value_as_textfield</label>
+							<br>
+							<input type="checkbox" id="recoil-bSpinner"></input>
+							<label for="recoil-bSpinner"> Spinner</label>
+							<br>
+							<input type="radio" id="recoil-bSlider" name="bar"></input>
+							<label for="recoil-bSlider"> Slider</label>
+							<br>
+							<input type="radio" id="recoil-bProgress_bar" name="bar"></input>
+							<label for="recoil-bProgress_bar"> Progress_bar</label>
+							<br>
+							<input type="radio" id="recoil-bSegemented_bar" name="bar"></input>
+							<label for="recoil-bSegemented_bar"> Segemented_bar</label>
+						</div>
+						
+						<h3><label for="exp_requirements-value"> exp_requirements : array </label></h3>
+						<div>
+							
+						</div>
+						
+						<h3><label for="shells-value"> shells : number </label></h3>
+						<div>
+							
+						</div>
+						
+						<h3><label for="shells-value"> projectile : object </label></h3>
+						<div>
+							
+						</div>
+					</div>
+				</div>
+				<div id="projectile">
+				</div>
+				<div id="explosion">
+				</div>					
+			</div>		
+		</div>
+
+		<div id="dialog" class="ui-widget-content ui-dialog"> 
+			
+			<div id ="holder">
+					<label for="amount">X:</label>
+					<input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;"></input>
+				<div id="slider0" class="ui-slider"></div>
+			</div>
+			<div id ="holder">
+					<label for="amount2">Y:</label>
+					<input type="text" id="amount2" readonly style="border:0; color:#f6931f; font-weight:bold;"></input>
+				<div id="slider1" class="ui-slider"></div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
